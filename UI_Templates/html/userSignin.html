@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Quick-Credit User SignIn</title>
+        <link rel="stylesheet" href="../css/userSign.css">
+    </head>
+    <header class="main-header">
+            <div>
+                    <button class="toggle-button">
+                            <span class="toggle-button__bar"></span>
+                            <span class="toggle-button__bar"></span>
+                            <span class="toggle-button__bar"></span>
+                    </button>
+                    <a href="index.html" class="main-header__brand">Quick <span id="logo-name">Credit</span> </a>
+            </div><nav class="main-nav">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item"><a href="index.html">Home</a></li>
+                    <li class="main-nav__item"><a href="userTrackLaon.html">Track Loan</a></li>
+                    <li class="main-nav__item"><a href="userRequestLoan.html">RequestLoan Loan</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="backdrop"></div>
+        <nav class="mobile-nav">
+            <ul class="mobile-nav__items">
+                <li class="monile-nav__item"><a href="index.html">Home</a></li>
+                <li class="monile-nav__item"><a href="userTrackLaon.html">Track Loan</a></li>
+                <li class="monile-nav__item"><a href="userRequestLoan.html">Request Loan</a></li>
+            </ul>
+        </nav>
+    <body class="signIn-wrapper">
+        <div class="main-signIn">
+            <div class="header-signIn">
+                <p>Sign In</p>
+            </div>
+            <form action="" class="user-register">
+                <div class="userGroupInputs">
+                        <label for="createdDate" class="user-label">Email<input type="email"></label>
+                </div>
+                <div class="userGroupInputs">
+                        <label for="status" class="user-label">Password<input type="password"></label>     
+                </div>
+                <div class="userGroupInputs">
+                        <a href="userRequestLoan.html" class="signInBtn">SignIn</a>
+                </div>
+                <div class="footerSignin">
+                        <a href="resetPassword.html">Forget Password</a>
+                        <a href="userSignup.html" class="SignupPage">Sign Up</a>
+                </div>
+            </form>
+        </div>
+        <script src="../js/userSign.js"></script>
+    </body>
+    </html>
