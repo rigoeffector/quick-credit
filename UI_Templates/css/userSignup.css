@@ -1,0 +1,302 @@
+
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:not(p){
+    font-size: 12px;
+}
+.wrapper{
+    background: url("../assets/img/quick-money.jpg");
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrappers-loan{
+    margin: 0;
+    padding: 0;
+}
+.wrappe-contents{
+    background: rgba(0, 0, 0, 0.884);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.main-header{
+    background: #101235;
+    background: rgb(137,111,140);
+    background: linear-gradient(110deg, rgba(137,111,140,1) 0%, rgba(16,18,53,1) 62%);
+    width: 100%;
+    top: 0;
+    bottom: 100%;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    
+}
+span#logo-name{
+    font-weight: 300;
+    font-size: 25px;
+}
+.main-header .main-header__brand{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0;
+    font-weight: 900;
+    padding: 0;
+    vertical-align: middle;
+}
+.main-nav__item a,
+.main-header .main-header__brand{
+    color: #ffffff;
+}
+.main-header > div{
+    display: inline-block;
+}
+
+        .main-nav{
+            list-style: none;
+            display: inline-block;
+            text-align: right;
+            width: calc(100% - 230px) 
+        }
+        .main-nav__item,
+        .mobile-nav__item{
+            display: inline-block;
+        }
+        li.monile-nav__item {
+            padding: 5px;
+        }
+        li.monile-nav__item a {
+            padding: 5px;
+            color: white;
+            text-decoration: none;
+            font-weight: 900;
+        }
+        .main-nav__item a,
+        .mobile-nav__item a{
+            text-decoration: none;
+            font-size: 13px;
+            margin: 0 1em;
+            font-weight: 700;
+            padding: 1em 0;
+        }
+        .main-nav__item a:hover,
+        .mobile-nav__item a:hover,
+        .mobile-nav__item a:active,
+        .main-nav__item a:active{
+             color: #d6d0d0;
+             border-bottom: 2px solid #d6d0d0;
+        }
+        .main-nav__item--cta a,
+        .mobile-nav__item--cta a
+        {
+            background: #d6d0d0;
+            color: #101235;
+            padding: 8px 16px;
+            text-decoration: none;
+            border: 8px;
+            font-weight: 700;
+        }
+        .main-nav__item--cta a:hover,
+        .mobile-nav__item--cta a:hover,
+        .mobile-nav__item--cta a:active,
+        .main-nav__item--cta a:active{
+            color: #101235;
+            border: 0px;
+}
+.main-signIn{
+    position: relative;
+    top: 0px;
+}
+.signIn-wrapper{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgb(228, 228, 228) 30%, rgb(255, 255, 255) 50%); 
+}
+.header-signIn{
+    background: url("../assets/login.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.header-signIn >p,.signInApplyLaon > p{
+    background: #101235ea;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    color: #a99c8d;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    line-height: 100px;
+}
+.footerSignin{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.footerSignin a,p{
+    color: #5a5a5a;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
+.SignupPage{
+    float: right;
+    font-weight: 900;
+}
+.user-register{
+    text-align: center;
+    display: block;
+    width: 500px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+-webkit-box-shadow: -1px -1px 23px -7px rgba(222,222,222,1);
+-moz-box-shadow: -1px -1px 23px -7px rgba(222,222,222,1);
+box-shadow: -1px -1px 23px -7px rgba(222,222,222,1);
+margin-bottom: 20px;
+}
+.user-register .user-label{
+    width: 100%;
+    display: inline-block; 
+    text-align: left;
+    padding: 0em 1em;
+    color: #5a5a5a;
+    font-weight: 700;
+}
+.user-register .user-label >input{
+    width: 100%;
+    height: 30px;
+    border-radius: 50px;   
+    border: .5px solid #101235;
+    outline: none;
+    padding-left: 20px;
+    text-align: left;
+    color: #616161;
+}
+.userGroupInputs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+.user-register .signUpBtn{
+    width: 100%;
+    background: #101235;
+    background: rgb(137,111,140);
+background: linear-gradient(110deg, rgba(137,111,140,1) 0%, rgba(16,18,53,1) 62%);
+    height: 30px;
+    border-radius: 50px;
+    line-height: 30px;
+    border: 0px;
+    margin: 0 1em;
+    color: #a99c8d;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.user-register .userGroupInputs>input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+}
+.user-register .signUpBtn:hover{
+    background: #d6d0d0;
+    border: .5px solid #101235;
+    color: #101235;
+}
+.userGroupInputs a{
+    color: #101235;
+    font-weight: 900;
+    text-decoration: none;
+    display: block;
+    float: right;
+    width: 100%;
+}
+
+.backdrop {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.555);
+  }
+.mobile-nav {
+    display: none;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    background: #101235;
+    width: 50%;
+    height: 100vh;
+  }
+  .mobile-nav__items {
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    margin: 10% auto;
+    text-decoration: none;
+    padding: 0;
+    text-align: left;
+  }
+  .mobile-nav__item {
+    margin: 1rem 0;
+  }
+  
+  .mobile-nav__item a {
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+.toggle-button {
+    width: 3rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+  }
+  .toggle-button:focus {
+    outline: none;
+  }
+  .toggle-button__bar {
+    width: 100%;
+    height: 0.2rem;
+    background: rgb(169, 156, 141);
+    display: block;
+    margin: 0.6rem 0;
+  }
+@media (min-width:45rem){
+    button.toggle-button{
+        display: none;
+    }
+    .main-header .main-header__brand{
+       padding: 20px;
+    }
+}
+@media (max-width:45rem){
+    .main-nav__item a{
+        display: none;
+    }
+    .container-loan {
+        display: block;
+    }
+    .user-register {
+        width: 80%;
+    }
+    .cardLaon-lists{
+        width: 95%;   
+    }
+}
