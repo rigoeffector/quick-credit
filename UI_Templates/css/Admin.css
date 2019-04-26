@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: linear-gradient(90deg, rgb(228, 228, 228) 30%, rgb(255, 255, 255) 50%);
+    margin: 0;
+    padding: 0; 
+}
+h1{
+    font-size: 1.6em;
+}
+
+
+.containers-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-cards{
+    width: 50%;
+    align-items: center;
+    margin: .5em auto;
+}
+ .labels{
+     width: 100%;
+     padding: 20px;
+     display: block;
+ }
+
+ .labels input{
+     width: 100%;
+     height: 30px;
+     border-radius: 50px;
+     border: 1px solid #ddd;
+     outline: none;
+     padding-left:20px;
+ }
+
+ .containers-contents{
+     text-align: center;
+     padding: 5px;
+ }
+@media(max-width:40rem){
+.sidebar{
+display: none;  
+}
+.selected{
+    display: none;
+}
+.content{
+    padding: 2px;
+    display: block;
+    margin: 60px auto;
+    margin-left: 15%;
+}
+.container-contents{
+    padding: 2px;
+}  
+.wrapper-main{
+  width: 40rem;
+  height: auto;
+}
+.wrapper-main >h1{
+  height: 20vh;
+  width: 100%;
+  padding: 20px;
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+.containers-contents{
+  transform: translateY(-120%);
+}
+}
+
+@media (min-width:40rem){
+    .mobile{
+        display: none;
+    }
+}
+
+.contents{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: linear-gradient(90deg, rgb(248, 248, 248) 30%, rgb(240, 234, 234) 50%);
+
+}
+.wrapper-main >h1{
+  background: rgba(0, 0, 0, 0.555);
+  height: 100%;;
+  color: rgb(202, 202, 202);
+  font-size: 2rem;
+  width: 100%;
+  padding: 20px;
+ text-align: center;
+ padding-top: 50%;
+  
+}
+  .wrapper-main{
+   
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  } 
+  .containers-contents{
+    margin: auto;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .contents-login{
+    text-align: left;
+    color: #101235;
+  }
+  button#loginAdmin{
+    background: #101235;
+    color: #cecece;
+    width: 100%;
+    border-radius: 50px;
+    height: 30px;
+    cursor: pointer;
+    border: 0px;
+    transition: all .5s ease-in-out;
+  }
+  button#loginAdmin a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
