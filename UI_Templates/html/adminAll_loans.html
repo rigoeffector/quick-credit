@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quick Credit Admin Home</title>
+    <link rel="stylesheet" href="../css/adminAll_loans.css">
+</head>
+<body>
+    <section class="headerDashboard">
+        <div class="logo">
+            <a href="">Quick  <span>Credit</span> </a>
+        </div>
+        <div class="admin-icon">
+            <a href=""> <img src="../assets/notification.png" alt=""  class="icons-notification"> </a>
+            <img src="../assets/user.png" alt="admin-icon" class="myadmin-picture">
+        </div></section>
+
+<section class="mobile">
+        <ul id="nav">
+                <li><a href="" class="selected"><span>Dashbaord</span></a></li>
+                <li><a href="adminAll_Loans.html"><img src="../assets/bag.png" alt="" class="icons"></a></li>
+                <li><a href="adminCurrent_Loans.html"><img src="../assets/buy.png" alt="" class="icons"></a></li>
+                <li><a href="adminRepaid_Loans.html"><img src="../assets/payment.png" alt="" class="icons"></a></li>
+                <li><a href="adminManage_User.html"><img src="../assets/hand.png" alt="" class="icons"></a></li>
+                <li><a href="adminSetting.html"><img src="../assets/wishlist.png" alt="" class="icons"></a></li>
+                
+            </ul>
+</section>
+
+<div id="container">
+    <section class="sidebar">
+        <ul id="nav">
+            <li><a href="#" class="selected"><span>Dashbaord</span></a></li>
+            <dl>
+                <dt> <span class="title-loan">Laon</span> </dt>
+                    <dd><a href="#" class="active"> Applications</a></dd>
+                    <dd> <li><a href="adminCurrent_Loans.html">Current</a></li></dd>
+                    <dd><li><a href="adminRepaid_Loans.html">Repaid </a></li></dd>
+                    
+                
+            </dl>
+
+            <dl>
+                    <dt> <span class="title-loan">Settings</span> </dt>
+                    <dd><a href="adminManage_User.html"> Manage Borrowers</a></dd>
+                    <dd><li><a href="adminSetting.html">Admin Settings </a></li></dd>
+                  
+                    
+            </dl>
+        </ul>
+    </section>
+<div id="container">
+    <section class="sidebar">
+        <ul id="nav">
+            <li><a href="adminHome.html" class="selected"><span>Dashbaord</span></a></li>
+            <dl>
+                <dt> <span class="title-loan">Laon</span> </dt>
+                    <dd><a href="#" class="active"> Applications</a></dd>
+                    <dd> <li><a href="adminCurrent_Laons.html">Current</a></li></dd>
+                    <dd><li><a href="adminRepaid_Loans.html">Repaid </a></li></dd>
+                    
+                
+            </dl>
+
+            <dl>
+                    <dt> <span class="title-loan">Settings</span> </dt>
+                    <dd><a href="adminManage_Users.html"> Manage Borrowers</a></dd>
+                    <dd><li><a href="adminSetting.html">Admin Settings </a></li></dd>
+                  
+                    
+            </dl>
+        </ul>
+    </section><section class="content">
+        <div class="container-contents">
+            <h1>Loan Applicants</h1>
+
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+            
+            <table id="myTable">
+              <thead>
+              <tr class="header">
+                <th style="width:40%;">Name</th>
+                <th style="width:25%;">Country</th>
+                <th style="width:25%;">Home Address</th>
+                <th style="width:10%;">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>RigoEffector Ninja</td>
+                <td>Rwanda</td>
+                <td>Kigali-Rwanda</td>
+                <td><button id="app-detail" >Detail</button> </td>
+              </tr>
+              <tr>
+                <td>Max</td>
+                <td>Sweden</td>
+                <td>Sweden-city</td>
+                <td><button id="app-detail" >Detail</button> </td>
+              </tr>
+              <tr>
+                <td>Oliver Ninja</td>
+                <td>UK</td>
+                <td>Manchester City</td>
+                <td><button id="app-detail" >Detail</button> </td>
+              </tr>
+              <tr>
+                <td>Net ninja</td>
+                <td>Germany</td>
+                <td>Bayern Munich</td>
+                <td><button id="app-detail" >Detail</button> </td>
+              </tr>
+              <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Canada</td>
+                <td>Los Angeles</td>
+                <td><button id="app-detail" >Detail</button> </td>
+              </tr>
+              <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Italy</td>
+                <td>Juventus City</td>
+                <td><button id="app-detail" >Detail</button> </td>
+              </tr>
+              <tr>
+                <td>North/South</td>
+                <td>UK</td>
+                <td>Nottingham</td>
+                <td><button id="app-detail" >Detail</button> </td>
+              </tr>
+              <tr>
+                <td>Paris specialites</td>
+                <td>France</td>
+                <td>Paris</td>
+                <td><button id="app-detail" >Detail</button> </td>
+              </tr>
+            </tbody>
+            </table>
+            <!-- The Modal -->
+            <div id="single-app__model" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <div class="modal-header">
+                    <h3>Application Loan Details</h3>
+                  </div>
+                      <div class="content-details">
+                        <div class="containers-flex">
+                          <div class="flex-cards">
+                            <p>Mr</p>
+                          </div>
+                          <div class="flex-cards">
+                              <h4>RigoEffector</h4>
+                          </div>
+                          <div class="flex-cards">
+                              <p>Date of Birth</p>
+                            </div>
+                            <div class="flex-cards">
+                                <h4>25/2/2000</h4>
+                            </div>
+                            <div class="flex-cards">
+                                <p>Martal Status</p>
+                              </div>
+                              <div class="flex-cards">
+                                  <h4>Single  </h4>
+                              </div>
+                              <div class="flex-cards">
+                                  <p>Home Address</p>
+                                </div>
+                                <div class="flex-cards">
+                                    <h4>Kigali</h4>
+                                </div>
+
+                                <div class="flex-cards">
+                                    <p>Home City</p>
+                                  </div>
+                                  <div class="flex-cards">
+                                      <h4>Gatenga</h4>
+                                  </div>  
+                                  <div class="flex-cards">
+                                      <p>State/Province</p>
+                                    </div>
+                                    <div class="flex-cards">
+                                        <h4>Southern</h4>
+                                    </div>
+                                    <div class="flex-cards">
+                                        <p>Postal Code</p>
+                                      </div>
+                                      <div class="flex-cards">
+                                          <h4>Country</h4>
+                                      </div>
+                                      
+
+                                      <div class="flex-cards">
+                                          <p>Present Employer</p>
+                                        </div>
+                                        <div class="flex-cards">
+                                            <h4>Coders Davis Ninja</h4>
+                                        </div>
+                                        <div class="flex-cards">
+                                            <p>Gross Monthly income</p>
+                                          </div>
+                                          <div class="flex-cards">
+                                              <h4> $ 1500</h4>
+                                          </div>
+                                          <div class="flex-cards">
+                                              <p>Amount of Laon </p>
+                                            </div>
+                                            <div class="flex-cards">
+                                                <h2>$ 300 </h2>
+                                            </div>
+
+                                            <div class="flex-cards">
+                                                <button id="approve-loan">Approve</button>
+                                              </div>
+                                              <div class="flex-cards">
+                                                  <button id="reject-loan">Reject</button>
+                                              </div>
+                        </div>
+
+                      </div>
+                </div>
+              
+              </div>
+        </div>
+
+
+            
+    </section>
+</div>
+<script src="../js/adminAll_loans.js"></script>
+</body>
+</html>
