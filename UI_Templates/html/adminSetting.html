@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quick Credit Admin Home</title>
+    <link rel="stylesheet" href="../css/adminSetting.css">
+</head>
+<body>
+    <section class="headerDashboard">
+        <div class="logo">
+            <a href="">Quick  <span>Credit</span> </a>
+        </div>
+        <div class="admin-icon">
+            <a href=""> <img src="../assets/notification.png" alt=""  class="icons-notification"> </a>
+            <img src="../assets/user.png" alt="admin-icon" class="myadmin-picture">
+        </div></section>
+
+<section class="mobile">
+        <ul id="nav">
+                <li><a href="" class="selected"><span>Dashbaord</span></a></li>
+                <li><a href="adminAll_Loans.html"><img src="../assets/bag.png" alt="" class="icons"></a></li>
+                <li><a href="adminCurrent_Loans.html"><img src="../assets/buy.png" alt="" class="icons"></a></li>
+                <li><a href="adminRepaid_Loans.html"><img src="../assets/payment.png" alt="" class="icons"></a></li>
+                <li><a href="adminManage_User.html"><img src="../assets/hand.png" alt="" class="icons"></a></li>
+                <li><a href="adminSetting.html"><img src="../assets/wishlist.png" alt="" class="icons"></a></li>
+                
+            </ul>
+</section>
+
+<div id="container">
+    <section class="sidebar">
+        <ul id="nav">
+            <li><a href="home.html" class="selected"><span>Dashbaord</span></a></li>
+            <dl>
+                <dt> <span class="title-loan">Laon</span> </dt>
+                    <dd><a href="adminAll_Loans.html.html" > Applications</a></dd>
+                    <dd> <li><a href="adminCurrent_Loans.html">Current</a></li></dd>
+                    <dd><li><a href="adminRepaid_Loans.html">Repaid </a></li></dd>
+                    
+                
+            </dl>
+
+            <dl>
+                    <dt> <span class="title-loan">Settings</span> </dt>
+                    <dd><a href="adminManage_User.html"> Manage Borrowers</a></dd>
+                    <dd><li><a href="" class="active">Admin Settings </a></li></dd>
+                  
+                    
+            </dl>
+        </ul>
+    </section><section class="content">
+        <div class="containers-contents">
+            <h1>Admin Password Resetting</h1>
+            <div class="container-reset">
+                <div class="contents-reset">
+                        <label for="Email" class="labels">Your Email<input type="email" placeholder="Your Email" required></label>
+                        <label for="Password" class="labels">Current Password<input type="text" placeholder="Your Current Password" required></label>
+                        <label for="New Password" class="labels">New Password<input type="text" placeholder="Your New Password" required></label>
+                        <label for="New Password" class="labels">Confirm New Password<input type="text" placeholder="Confrim Password" required></label>                    
+                        <input type="submit" name="" id="resetPassword" value="Reset Password">
+                </div>
+
+                
+               
+            </div>
+
+        
+         
+        </div>
+
+
+            
+    </section>
+</div>
+<script src="../js/adminSetting.js"></script>
+</body>
+</html>
