@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quick Credit Admin Home</title>
-    <link rel="stylesheet" href="../css/adminManage_User.css">
+    <link rel="stylesheet" href="../css/adminCurrent_Loans.css">
 </head>
 <body>
     <section class="headerDashboard">
@@ -36,7 +36,7 @@
             <li><a href="#" class="selected"><span>Dashbaord</span></a></li>
             <dl>
                 <dt> <span class="title-loan">Laon</span> </dt>
-                    <dd><a href="#" > Applications</a></dd>
+                    <dd><a href="adminAll_loans.html" > Applications</a></dd>
                     <dd> <li><a href="adminCurrent_Loans.html">Current</a></li></dd>
                     <dd><li><a href="adminRepaid_Loans.html">Repaid </a></li></dd>
                     
@@ -45,7 +45,7 @@
 
             <dl>
                     <dt> <span class="title-loan">Settings</span> </dt>
-                    <dd><a href="adminManage_User.html" class="active"> Manage Borrowers</a></dd>
+                    <dd><a href="adminManage_User.html" > Manage Borrowers</a></dd>
                     <dd><li><a href="adminSetting.html">Admin Settings </a></li></dd>
                   
                     
@@ -58,8 +58,8 @@
             <li><a href="adminHome.html" class="selected"><span>Dashbaord</span></a></li>
             <dl>
                 <dt> <span class="title-loan">Laon</span> </dt>
-                    <dd><a href="#"> Applications</a></dd>
-                    <dd> <li><a href="adminCurrent_Laons.html">Current</a></li></dd>
+                    <dd><a href="adminAll_loans.html"> Applications</a></dd>
+                    <dd> <li><a href="adminCurrent_Laons.html" class="active">Current</a></li></dd>
                     <dd><li><a href="adminRepaid_Loans.html">Repaid </a></li></dd>
                     
                 
@@ -67,7 +67,7 @@
 
             <dl>
                     <dt> <span class="title-loan">Settings</span> </dt>
-                    <dd><a href="adminManage_Users.html"  class="active"> Manage Borrowers</a></dd>
+                    <dd><a href="adminManage_Users.html"  > Manage Borrowers</a></dd>
                     <dd><li><a href="adminSetting.html">Admin Settings </a></li></dd>
                   
                     
@@ -78,72 +78,71 @@
         
     </section><section class="content">
         <div class="container-contents">
-            <h1>Manage all Users to Verify Them</h1>
+            <h1>Current Laons</h1>
 
             <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
             
             <table id="myTable">
               <thead>
               <tr class="header">
-                <th style="width:10%">Verify</th>
-                <th style="width:40%;">First Name</th>
-                <th style="width:15%;">Last Name</th>
-                <th style="width:20%;">Home Address</th>
-                <th style="width:15%;">Action</th>
+               
+                <th style="width:25%;">First Name</th>
+                <th style="width:25%;">Last Name</th>
+                <th style="width:25%;">Home Address</th>
+                <th style="width:25%;">Action</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td> <input type="checkbox" name="" id="user_Verification"> </td>
+              
                 <td>RigoEffector Ninja</td>
                 <td>Rwanda</td>
                 <td>Kigali-Rwanda</td>
                 <td><button id="app-detail" >Detail</button> </td>
               </tr>
               <tr>
-                    <td> <input type="checkbox" name="" id="user_Verification"> </td>
+                
                 <td>Max</td>
                 <td>Sweden</td>
                 <td>Sweden-city</td>
                 <td><button id="app-detail" >Detail</button> </td>
               </tr>
               <tr>
-                    <td> <input type="checkbox" name="" id="user_Verification"> </td>
+                    
                 <td>Oliver Ninja</td>
                 <td>UK</td>
                 <td>Manchester City</td>
                 <td><button id="app-detail" >Detail</button> </td>
               </tr>
               <tr>
-                    <td> <input type="checkbox" name="" id="user_Verification"> </td>
+                  
                 <td>Net ninja</td>
                 <td>Germany</td>
                 <td>Bayern Munich</td>
                 <td><button id="app-detail" >Detail</button> </td>
               </tr>
               <tr>
-                    <td> <input type="checkbox" name="" id="user_Verification"> </td>
+                  
                 <td>Laughing Bacchus Winecellars</td>
                 <td>Canada</td>
                 <td>Los Angeles</td>
                 <td><button id="app-detail" >Detail</button> </td>
               </tr>
               <tr>
-                    <td> <input type="checkbox" name="" id="user_Verification"> </td>
                 <td>Magazzini Alimentari Riuniti</td>
                 <td>Italy</td>
                 <td>Juventus City</td>
                 <td><button id="app-detail" >Detail</button> </td>
               </tr>
               <tr>
-                    <td> <input type="checkbox" name="" id="user_Verification"> </td>
+                  
                 <td>North/South</td>
                 <td>UK</td>
                 <td>Nottingham</td>
                 <td><button id="app-detail" >Detail</button> </td>
               </tr>
               <tr>
-                    <td> <input type="checkbox" name="" id="user_Verification"> </td>
+                    
                 <td>Paris specialites</td>
                 <td>France</td>
                 <td>Paris</td>
@@ -205,6 +204,20 @@
                                       <div class="flex-cards">
                                           <h4>Country</h4>
                                       </div>
+
+                                      <div class="flex-cards">
+                                            <p>Status</p>
+                                          </div>
+                                          <div class="flex-cards">
+                                              <h2>Pending</h2>
+                                          </div>
+
+                                      <div class="flex-cards">
+                                            <p>Amount to Pay </p>
+                                          </div>
+                                          <div class="flex-cards">
+                                              <h1>$ 5000</h1>
+                                          </div>
                                       
 
                         </div>
@@ -219,6 +232,6 @@
             
     </section>
 </div>
-<script src="../js/adminManage_User.js"></script>
+<script src="../js/adminCurrent_Loans.js"></script>
 </body>
 </html>
