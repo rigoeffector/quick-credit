@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quick-Credit Request-Laon-Form</title>
+    <link rel="stylesheet" href="../css/userRequestLoan.css">
+</head>
+<body class="signIn-wrapper">
+                <header class="main-header">
+                                <div>
+                                        <button class="toggle-button">
+                                                <span class="toggle-button__bar"></span>
+                                                <span class="toggle-button__bar"></span>
+                                                <span class="toggle-button__bar"></span>
+                                        </button>
+            <a href="index.html" class="main-header__brand">Quick <span id="logo-name">Credit</span> </a>
+                                   
+                                </div><nav class="main-nav">
+                                    <ul class="main-nav__items">
+                                        <li class="main-nav__item"><a href="index.html">Home</a></li>
+                                        <li class="main-nav__item"><a href="userTrackLaon.html">Track Loan</a></li>
+                                        <li class="main-nav__item main-nav__item--cta"><a href="userSignin.html">Logout</a></li>
+                                    </ul>
+                                </nav>
+                            </header>
+                            <div class="backdrop"></div>
+                        
+                            <nav class="mobile-nav">
+                                <ul class="mobile-nav__items">
+                                    <li class="monile-nav__item"><a href="index.html">Home</a></li>
+                                    <li class="monile-nav__item"><a href="userTrackLaon.html">Track Loan</a></li>
+                                    <li class="monile-nav__item mobile-nav__item--cta"><a href="userSignIn.html">Logout</a></li>
+                                </ul>
+                            </nav>
+    <div class="main-signIn">
+        <div class="signInApplyLaon">
+            <p>Apply for A Loan </p>
+        </div>
+
+        <form action="" class="user-register">
+           
+            <h3>Contact Information</h3>
+            <hr>
+            <div class="userGroupInputs">
+                <label class="user-label">Title
+                    <select>
+                        <option value="1">Mr.</option>
+                        <option value="2">Mrs.</option>  
+                    </select>
+               </label>
+            </div>
+            <div class="userGroupInputs">
+                    <label for="user" class="user-label">Names<input type="text"></label>
+                    <label for="createdDate" class="user-label">Date of birth<input type="date"></label>
+            </div>
+            <h4>Martal Status</h4>
+            <div class="userGroupInputs"> 
+                <label class="user-label">Single
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="user-label">Maried
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="user-label">Other
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                      </label>
+                      
+                    
+            </div>
+            <div class="userGroupInputs">
+                    <label for="tenor" class="user-label">Tenor<input type="text"></label>
+                    <label for="amount" class="user-label">Amount<input type="text"></label>
+            </div>
+            <div class="userGroupInputs">
+                    <label for="paymentInstallment" class="user-label">Payment Installment<input type="text"></label>
+                    <label for="balance" class="user-label">Balance<input type="text"></label>
+            </div>
+            <div class="userGroupInputs">
+                <label for="interest" class="user-label">Home Address<input type="text"></label>
+                <label for="interest" class="user-label">Work Address<input type="text"></label>
+            </div>
+            <div class="userGroupInputs">
+                    <label for="interest" class="user-label">Home City<input type="text"></label>
+                    <label for="interest" class="user-label">State/province<input type="text"></label>
+            </div>
+            <div class="userGroupInputs">
+                    <label for="interest" class="user-label">Postal/Zip Code<input type="text"></label>
+                    <label for="interest" class="user-label">Country<input type="text"></label>
+            </div>
+
+            <hr>
+
+            <h3>Employment Borrower Information</h3>
+            <br>    
+            <div class="userGroupInputs">
+                    <label for="tenor" class="user-label">Present Employer <input type="text"></label>
+                    <label for="amount" class="user-label">Gross monthly income<input type="text"></label>
+            </div>
+            <div class="userGroupInputs">
+                    
+                    <label for="amount" class="user-label">Amount<input type="text"></label>
+            </div>
+            <div class="userGroupInputs">
+                   <a href="userTrackLaon.html" class="userTrackloanBtn">Request</a>
+            </div>
+        </form>
+    </div>
+    <script src="../js/userRequestLoan.js"></script>
+</body>
+</html>
