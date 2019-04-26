@@ -17,9 +17,6 @@ function myFunction() {
     }
   }
 
-
-
-  
     var openModelBtn = document.querySelectorAll("#app-detail");
     var singleModal = document.getElementById("single-app__model");
     var closeModal = document.querySelectorAll(".close");
@@ -40,12 +37,4 @@ function myFunction() {
         }
     }
 
-    var userVerification = document.querySelectorAll("#user_Verification");
-    for(let u=0; u < userVerification.length;u++){
-        userVerification[u].addEventListener("click",(event)=>{
-           var box = confirm("Are you sure to veirfy this user");
-           if(box == false){
-              event.preventDefault()
-           }
-        })
-    }
+ 
