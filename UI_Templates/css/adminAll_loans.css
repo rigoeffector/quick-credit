@@ -201,9 +201,7 @@ float: left;
     transform: scale(1.2);
 }
 
-
-
-#myInput {
+#myInput,#myInput-status {
     background-image: url('../icons/magnifying-glass.png');
     background-size: 30px 30px;
     background-position: 10px 10px;
