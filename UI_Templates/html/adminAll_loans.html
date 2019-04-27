@@ -71,7 +71,7 @@
             <h1>Loan Applicants</h1>
 <div class="container-search">
   <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
-  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Filter by Status.." title="Type in a name">
+  <input type="text" id="myInput-status" onkeyup="myFilter()" placeholder="Filter by Status.." title="Type in a name">
 </div>
             
             <table id="myTable">
@@ -96,7 +96,7 @@
                 <td>Max</td>
                 <td>Sweden</td>
                 <td>Sweden-city</td>
-                <td>Pending</td>
+                <td>Paid</td>
                 <td><button id="app-detail" >Detail</button> </td>
               </tr>
               <tr>
@@ -110,7 +110,7 @@
                 <td>Net ninja</td>
                 <td>Germany</td>
                 <td>Bayern Munich</td>
-                <td>Pending</td>
+                <td>Not Paid</td>
                 <td><button id="app-detail" >Detail</button> </td>
               </tr>
               <tr>
@@ -138,7 +138,7 @@
                 <td>Paris specialites</td>
                 <td>France</td>
                 <td>Paris</td>
-                <td>Pending</td>
+                <td>Rejected</td>
                 <td><button id="app-detail" >Detail</button> </td>
               </tr>
             </tbody>
