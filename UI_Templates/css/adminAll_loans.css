@@ -208,7 +208,8 @@ float: left;
     background-size: 30px 30px;
     background-position: 10px 10px;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 30%;
+    margin: 0 1em;
     font-size:inherit;
     padding: 12px 20px 12px 40px;
     border: 1px solid #ddd;
@@ -557,3 +558,8 @@ display: none;
     text-align: center;
     font-size: 14px;
   }
+.container-search{
+    display:  flex;
+    width: 100;
+    flex-wrap: wrap;#myInput
+}
